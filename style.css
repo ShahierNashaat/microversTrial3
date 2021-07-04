@@ -63,3 +63,44 @@ body{
         font-size: 20px;
     }
 }
+
+#prices div {
+    border: 1px solid #000;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+}
+#prices h5 {
+    background-color: #ddd;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    height:30px;
+    font-size: 1.5rem;
+}
+
+#prices span {
+    font-size: 1rem;
+    font-weight: bold;
+}
+#prices p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+#prices button {
+    background-color: yellow;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: auto;
+    margin-bottom: 5px;
+    border: none;
+}
+
+#prices {
+    display: flex;
+    justify-content: space-around;
+}
