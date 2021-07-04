@@ -40,30 +40,6 @@ body{
     width: 50%;
     height: 315px;
 }
-@media only screen and (max-width: 600px) {
-    #header{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    #nav-bar a{
-        font-size: 15px;
-    }
-    #nav-bar{
-        width: 100%;
-    }
-    #header-img {
-        width: 100%;
-    }
-    #video{
-        width: 100%;
-        height: 315px;
-    }
-    h2{
-        font-size: 20px;
-    }
-}
-
 #prices div {
     border: 1px solid #000;
     margin: 10px;
@@ -104,3 +80,30 @@ body{
     display: flex;
     justify-content: space-around;
 }
+@media only screen and (max-width: 600px) {
+    #header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #nav-bar a{
+        font-size: 15px;
+    }
+    #nav-bar{
+        width: 100%;
+    }
+    #header-img {
+        width: 100%;
+    }
+    #video{
+        width: 100%;
+        height: 315px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #prices {
+        flex-direction: column;
+    }
+}
+
